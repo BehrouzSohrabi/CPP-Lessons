@@ -1,19 +1,18 @@
 # CPP-Lessons
     C++ 20 Lessons and Snippets
 
-# Compile and Run Codes
+## Compile and Run Codes
 For compiling the code we need a C++ compiler.
-
-Windows:    install MinGW
-MacOS:      install XCode tools package
-linux:  Fedora, Red Hat, CentOS:
+<ul>
+<li>Windows:    install MinGW</li>
+<li>MacOS:      install XCode tools package</li>
+<li>linux:<ul><li>Fedora, Red Hat, CentOS:</li>
             yum groupinstall 'Development Tools'
-        Debian, Ubuntu:
-            $ sudo apt-get update
+        <li>Debian, Ubuntu:</li>
+            $ sudo apt-get update<br />
             $ sudo apt-get install build-essential manpages-dev
-
-Compile:
-    g++ filename.cpp -o outputname
-
-Run:
-    ./outputname
+</ul>
+</li>
+</ul>
+Compile:<ul><li>g++ filename.cpp -o outputname</li></ul>
+Run:<ul><li>./outputname</li></ul>
